@@ -45,7 +45,7 @@ O Front-end pode se comunicar com o backend através dos seguintes caminhos (end
 
 ```json
 {
-  "id_cliente": `3`,
+  "id_cliente": 3,
   "mensagem": "Cliente cadastrado!"
 }
 
@@ -54,7 +54,7 @@ O Front-end pode se comunicar com o backend através dos seguintes caminhos (end
 **Método:** `POST`
 **URL:** `http://127.0.0.1:5000/agendar`
 **O que enviar no Corpo (JSON):**
-```
+```json
 {
   "id_cliente": 3,
   "id_servico": 1,
