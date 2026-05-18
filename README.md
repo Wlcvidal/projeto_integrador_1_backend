@@ -39,7 +39,7 @@ O Front-end pode se comunicar com o backend através dos seguintes caminhos (end
   "telefone": "11999998888"
 }
 **Resposta do Servidor (201 Created):**
-'''json
+```json
 {
   "id_cliente": 3,
   "mensagem": "Cliente cadastrado!"
