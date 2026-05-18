@@ -36,23 +36,24 @@ O Front-end pode se comunicar com o backend através dos seguintes caminhos (end
 * **O que enviar no Corpo (JSON):**
 
 ```json
-{'
+{
   "nome": "Nome do Cliente",
   "telefone": "11999998888"
-'}
+}
 ```
-## Resposta do Servidor (201 Created):
+### Resposta do Servidor (201 Created):
 
 ```
 {
   "id_cliente": 3,
   "mensagem": "Cliente cadastrado!"
 }
+
 ```
 # 2. Criar Agendamento
 Método: POST
-```
 
+```
 ### URL: http://127.0.0.1:5000/agendar
 
 ### O que enviar no Corpo (JSON):
