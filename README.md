@@ -46,9 +46,9 @@ O Front-end pode se comunicar com o backend através dos seguintes caminhos (end
 ### 2. Criar Agendamento
 Método: POST
 
-###URL: http://127.0.0.1:5000/agendar
+### URL: http://127.0.0.1:5000/agendar
 
-###O que enviar no Corpo (JSON):
+### O que enviar no Corpo (JSON):
 {
   "id_cliente": 3,
   "id_servico": 1,
