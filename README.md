@@ -35,19 +35,19 @@ O Front-end pode se comunicar com o backend através dos seguintes caminhos (end
 * **URL:** `http://127.0.0.1:5000/cliente`
 * **O que enviar no Corpo (JSON):**
 
-```json
+
 {
   "nome": "Nome do Cliente",
   "telefone": "11999998888"
 }
-```
-**Resposta do Servidor (201 Created):**
-```
+
+*Resposta do Servidor (201 Created):*
+
 {
   "id_cliente": 3,
   "mensagem": "Cliente cadastrado!"
 }
-```
+
 ### 2. Criar Agendamento
 Método: POST
 
@@ -60,16 +60,16 @@ Método: POST
   "id_servico": 1,
   "data_inicio": "2026-05-25 14:30:00"
 }
-###Resposta do Servidor (201 Created):
+### Resposta do Servidor (201 Created):
 {
   "mensagem": "Agendamento realizado com sucesso!"
 }
-###3. Listar Agendamentos
-###Método: GET
+### 3. Listar Agendamentos
+### Método: GET
 
-###URL: http://127.0.0.1:5000/agendamentos
+### URL: http://127.0.0.1:5000/agendamentos
 
-###Resposta do Servidor (200 OK): Retorna a lista de horários trazendo os nomes do cliente e do serviço.
+### Resposta do Servidor (200 OK): Retorna a lista de horários trazendo os nomes do cliente e do serviço.
 [
   {
     "id_agendamento": 1,
@@ -79,30 +79,30 @@ Método: POST
     "status": "Pendente"
   }
 ]
-###Como Rodar o Projeto Localmente
-###Passo a passo para colocar a API funcionando na máquina:
+### Como Rodar o Projeto Localmente
+### Passo a passo para colocar a API funcionando na máquina:
 
 
-###1. Clonar o repositório:
-###git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
+### 1. Clonar o repositório:
+### git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
 
-###2. Criar e ativar o ambiente virtual (venv):
+### 2. Criar e ativar o ambiente virtual (venv):
 
-###python -m venv venv
+### python -m venv venv
 ### No Windows para ativar:
-###.\venv\Scripts\activate
+.\venv\Scripts\activate
 
-###3. Instalar as dependências necessárias:
+### 3. Instalar as dependências necessárias:
 pip install Flask flask-cors mysql-connector-python
 
-###4.Configurar o Banco de Dados:
+### 4.Configurar o Banco de Dados:
 ###certifique-se de ter o MySQL instalado e rodando.
 
-###Crie o banco de dados e as tabelas necessárias.
+### Crie o banco de dados e as tabelas necessárias.
 
-###No arquivo app.py, ajuste a linha password="Univesp123" com a sua senha local do MySQL.
+### No arquivo app.py, ajuste a linha password="Univesp123" com a sua senha local do MySQL.
 
-###5. Ligar o Servidor:
-###python app.py
+### 5. Ligar o Servidor:
+### python app.py
 
-###A API começará a rodar em: http://127.0.0.1:5000/
+### A API começará a rodar em: http://127.0.0.1:5000/
