@@ -25,21 +25,24 @@ O banco de dados se chama `modelo_univesp` e possui 4 tabelas principais:
 
 ---
 
-## 🚀 Como Integrar com o Front-end (Rotas da API)
+# 🚀 Como Integrar com o Front-end (Rotas da API)
 
 O Front-end pode se comunicar com o backend através dos seguintes caminhos (endpoints):
 
-### 🔹 1. Cadastrar Cliente
+## 🔹 1. Cadastro de Clientes
+
 * **Método:** `POST`
 * **URL:** `http://127.0.0.1:5000/cliente`
 * **O que enviar no Corpo (JSON):**
+
 ```json
 {
   "nome": "Nome do Cliente",
   "telefone": "11999998888"
 }
+```
 **Resposta do Servidor (201 Created):**
-```json
+```
 {
   "id_cliente": 3,
   "mensagem": "Cliente cadastrado!"
