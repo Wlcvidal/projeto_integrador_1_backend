@@ -84,7 +84,7 @@ O Front-end pode se comunicar com o backend através dos seguintes caminhos (end
 ```
 # Como Rodar o Projeto Localmente
 
-### Passo a passo para colocar a API funcionando na máquina:
+**Passo a passo para colocar a API funcionando na máquina:**
 
 ## 1. Clonar o repositório:
 **git clone** `https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)`
