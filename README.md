@@ -70,7 +70,7 @@ O Front-end pode se comunicar com o backend através dos seguintes caminhos (end
 ## 🔹 3. Listar Agendamentos
 * **Método:** `GET`
 * **URL:** `http://127.0.0.1:5000/agendamentos`
-* **Resposta do Servidor (200 OK): `Retorna a lista de horários trazendo os nomes do cliente e do serviço.`
+* Resposta do Servidor (200 OK): `Retorna a lista de horários trazendo os nomes do cliente e do serviço.`
 ```json
 [
   {
